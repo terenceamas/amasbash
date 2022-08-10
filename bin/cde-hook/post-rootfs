@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -f $1/image/linux.bin ]; then
+    cp $1/image/linux.bin ~/
+    echo " * linux.bin copied"
+else
+    echo "$0: linux.bin not found!"
+    exit 1
+fi
+
+if [ -f $1/image/root.bin ]; then
+    cp $1/image/root.bin ~/
+    echo " * root.bin copied"
+else
+    echo "$0: root.bin not found!"
+    exit 1
+fi

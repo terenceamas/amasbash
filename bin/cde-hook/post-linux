@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f $1/image/bzImage ]; then
+    cp $1/image/bzImage ~/download/wbr
+    echo " * bzImage copied"
+else
+    echo "$0: bzImage not found!"
+    exit 1
+fi

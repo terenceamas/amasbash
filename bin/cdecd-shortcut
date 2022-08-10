@@ -1,0 +1,6 @@
+rtl8190:~/ATC3/skuld/linux/src/drivers/net/rtl8190
+wlan:~/ATC3/skuld/rootfs/src/amit_priv/RTLWLAN
+char:~/ATC3/skuld/linux/src/drivers/char
+inc865x:~/ATC3/skuld/linux/src/include/asm/rtl865x
+net865x:~/ATC3/skuld/linux/src/drivers/net/rtl865x
+boot:~/ATC3/skuld/bootloader/boot
