@@ -5,13 +5,15 @@ mkdir .log
 mkdir vi_backup
 
 cp -r bash/bin .
+chmod +x bin/prompt
 cp -r bash/.vim .
 cp -r bash/.dir_colors .
 
+cp .vimrc 0vimrc
 cp bash/vimrc ./.vimrc
 cp bash/screenrc ./.screenrc
 
-cp .bashrc bashrc0
+cp .bashrc 0bashrc
 cp bash/bashrc ./.bashrc
 
 chmod -x .dir_colors/dircolors*
