@@ -10,11 +10,12 @@ cp -r bash/.vim .
 cp -r bash/.dir_colors .
 
 cp .vimrc 0vimrc
-cp bash/vimrc ./.vimrc
-cp bash/screenrc ./.screenrc
+cp bash/vimrc ~/.vimrc
+cp bash/screenrc ~/.screenrc
 
 cp .bashrc 0bashrc
-cat bash/bashrc >> ./.bashrc
+cat .bashrc >> bash/bashrc
+cp bash/bashrc >> ~/.bashrc
 
 chmod -x .dir_colors/dircolors*
 chmod -x .vim/colors/*
