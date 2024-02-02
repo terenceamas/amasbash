@@ -39,6 +39,9 @@ alias sc='screen -d -r'
 # alias makeall='make clean ; clear ; make ; make glue'
 # alias makedistclean='rm -rf linux/root image/* rootfs/root busybox/root; make clean'
 # alias makehttp='make clean ; make ; make glue ; cp httpd.exe ~/download/wbr'
+alias ce='EDITOR="vim" bin/rails credentials:edit'
+alias compile='bundle exec rake assets:precompile RAILS_ENV=staging'
+alias restart='sudo systemctl reload apache2'
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
