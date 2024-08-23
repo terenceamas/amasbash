@@ -1,5 +1,8 @@
 #!/bin/sh
 
+mkdir ~/vi_backup
+
+
 mv ~/.vim ~/.vim0
 cp -r .vim ~/.vim
 

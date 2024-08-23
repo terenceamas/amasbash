@@ -1,6 +1,6 @@
 " set vim default backup directory, you should do mkdir ~/vi_backup/ first
-set backupdir=~/vi_backup/
-set backup
+" set backupdir=~/vi_backup/
+" set backup
 
 " after moving curser, we can still backsapce, del
 set bs=2
@@ -85,9 +85,9 @@ set cinwords=if,else,while,do,for,switch
 " \t replaced with 4 blocks
 "set expandtab
 " set tab and indent size
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 
 " :sp will show all files
 set wildmenu
