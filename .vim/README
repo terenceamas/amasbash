@@ -1,0 +1,9 @@
+# Vue
+git clone https://github.com/posva/vim-vue.git ~/.vim/pack/plugins/start/vim-vue
+
+# Javascript
+git clone https://github.com/pangloss/vim-javascript.git ~/.vim/pack/vim-javascript/start/vim-javascript
+
+# Vim script
+http://www.vim.org/scripts/script.php?script_id=1936
+http://www.vim.org/scripts/script.php?script_id=1491
